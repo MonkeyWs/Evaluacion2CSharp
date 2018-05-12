@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelRadioTaxiStoreContainer" CdmEntityContainer="RadioTaxiEntities">
+    <EntitySetMapping Name="CUOTAS">
+      <EntityTypeMapping TypeName="ModelRadioTaxi.CUOTAS">
+        <MappingFragment StoreEntitySet="CUOTAS">
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="NUMEROCUOTA" ColumnName="NUMEROCUOTA" />
+          <ScalarProperty Name="FK_NUMEROSOCIO" ColumnName="FK_NUMEROSOCIO" />
+          <ScalarProperty Name="MESPAGO" ColumnName="MESPAGO" />
+          <ScalarProperty Name="FECHAPAGO" ColumnName="FECHAPAGO" />
+          <ScalarProperty Name="MONTO" ColumnName="MONTO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SOCIOS">
+      <EntityTypeMapping TypeName="ModelRadioTaxi.SOCIOS">
+        <MappingFragment StoreEntitySet="SOCIOS">
+          <ScalarProperty Name="NUMEROSOCIO" ColumnName="NUMEROSOCIO" />
+          <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+          <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
+          <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+          <ScalarProperty Name="FONO" ColumnName="FONO" />
+          <ScalarProperty Name="PATENTE" ColumnName="PATENTE" />
+          <ScalarProperty Name="MODELO" ColumnName="MODELO" />
+          <ScalarProperty Name="MARCA" ColumnName="MARCA" />
+          <ScalarProperty Name="ANIO" ColumnName="ANIO" />
+          <ScalarProperty Name="FOTO" ColumnName="FOTO" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

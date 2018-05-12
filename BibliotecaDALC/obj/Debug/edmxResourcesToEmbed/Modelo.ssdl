@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelRadioTaxi.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CUOTAS">
+    <Key>
+      <PropertyRef Name="NUMEROCUOTA" />
+    </Key>
+    <Property Name="NUMEROCUOTA" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="FK_NUMEROSOCIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="MESPAGO" Type="number" Precision="38" Scale="0" />
+    <Property Name="FECHAPAGO" Type="date" />
+    <Property Name="MONTO" Type="number" Precision="38" Scale="0" />
+    <Property Name="ACTIVO" Type="varchar2" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="SOCIOS">
+    <Key>
+      <PropertyRef Name="NUMEROSOCIO" />
+    </Key>
+    <Property Name="NUMEROSOCIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="NOMBRE" Type="varchar2" MaxLength="45" />
+    <Property Name="APELLIDO" Type="varchar2" MaxLength="45" />
+    <Property Name="DIRECCION" Type="varchar2" MaxLength="45" />
+    <Property Name="FONO" Type="number" Precision="38" Scale="0" />
+    <Property Name="PATENTE" Type="varchar2" MaxLength="45" />
+    <Property Name="MODELO" Type="varchar2" MaxLength="45" />
+    <Property Name="MARCA" Type="varchar2" MaxLength="45" />
+    <Property Name="ANIO" Type="number" Precision="38" Scale="0" />
+    <Property Name="FOTO" Type="varchar2" MaxLength="100" />
+    <Property Name="ACTIVO" Type="varchar2" MaxLength="2" />
+  </EntityType>
+  <Association Name="SYS_C007014">
+    <End Role="SOCIOS" Type="Self.SOCIOS" Multiplicity="0..1" />
+    <End Role="CUOTAS" Type="Self.CUOTAS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SOCIOS">
+        <PropertyRef Name="NUMEROSOCIO" />
+      </Principal>
+      <Dependent Role="CUOTAS">
+        <PropertyRef Name="FK_NUMEROSOCIO" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelRadioTaxiStoreContainer">
+    <EntitySet Name="CUOTAS" EntityType="Self.CUOTAS" Schema="USU_BD" store:Type="Tables" />
+    <EntitySet Name="SOCIOS" EntityType="Self.SOCIOS" Schema="USU_BD" store:Type="Tables" />
+    <AssociationSet Name="SYS_C007014" Association="Self.SYS_C007014">
+      <End Role="SOCIOS" EntitySet="SOCIOS" />
+      <End Role="CUOTAS" EntitySet="CUOTAS" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
