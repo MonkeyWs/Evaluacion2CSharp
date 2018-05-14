@@ -6,7 +6,7 @@
     </Key>
     <Property Name="NUMEROCUOTA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
     <Property Name="FK_NUMEROSOCIO" Type="Decimal" Precision="38" Scale="0" />
-    <Property Name="MESPAGO" Type="Int32" />
+    <Property Name="MESPAGO" Type="DateTime" />
     <Property Name="FECHAPAGO" Type="DateTime" />
     <Property Name="MONTO" Type="Decimal" Precision="38" Scale="0" />
     <NavigationProperty Name="SOCIOS" Relationship="Self.SYS_C007014" FromRole="CUOTAS" ToRole="SOCIOS" />

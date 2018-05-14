@@ -1,0 +1,9 @@
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\bin\Debug\Entidades.dll
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\bin\Debug\BibliotecaDalc.dll
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\bin\Debug\BibliotecaDalc.pdb
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\obj\Debug\Entidades.dll
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Entidades\obj\Debug\Entidades.pdb

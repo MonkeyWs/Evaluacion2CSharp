@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaDalc", "Bibliotec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{F237D3A3-C0C9-48B3-ABA5-A1349DEA23FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioTaxisForm", "RadioTaxisForm\RadioTaxisForm.csproj", "{375F2707-D461-4DCE-99B0-F7F697996E46}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F237D3A3-C0C9-48B3-ABA5-A1349DEA23FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F237D3A3-C0C9-48B3-ABA5-A1349DEA23FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F237D3A3-C0C9-48B3-ABA5-A1349DEA23FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375F2707-D461-4DCE-99B0-F7F697996E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375F2707-D461-4DCE-99B0-F7F697996E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375F2707-D461-4DCE-99B0-F7F697996E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375F2707-D461-4DCE-99B0-F7F697996E46}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

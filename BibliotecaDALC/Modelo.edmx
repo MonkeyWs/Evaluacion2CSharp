@@ -11,7 +11,7 @@
           </Key>
           <Property Name="NUMEROCUOTA" Type="number" Precision="38" Scale="0" Nullable="false" />
           <Property Name="FK_NUMEROSOCIO" Type="number" Precision="38" Scale="0" />
-          <Property Name="MESPAGO" Type="number" Precision="38" Scale="0" />
+          <Property Name="MESPAGO" Type="date" />
           <Property Name="FECHAPAGO" Type="date" />
           <Property Name="MONTO" Type="number" Precision="38" Scale="0" />
           <Property Name="ACTIVO" Type="varchar2" MaxLength="2" />
@@ -32,7 +32,7 @@
           <Property Name="FOTO" Type="varchar2" MaxLength="100" />
           <Property Name="ACTIVO" Type="varchar2" MaxLength="2" />
         </EntityType>
-        <Association Name="SYS_C007014">
+        <Association Name="SYS_C007001">
           <End Role="SOCIOS" Type="Self.SOCIOS" Multiplicity="0..1" />
           <End Role="CUOTAS" Type="Self.CUOTAS" Multiplicity="*" />
           <ReferentialConstraint>
@@ -47,7 +47,7 @@
         <EntityContainer Name="ModelRadioTaxiStoreContainer">
           <EntitySet Name="CUOTAS" EntityType="Self.CUOTAS" Schema="USU_BD" store:Type="Tables" />
           <EntitySet Name="SOCIOS" EntityType="Self.SOCIOS" Schema="USU_BD" store:Type="Tables" />
-          <AssociationSet Name="SYS_C007014" Association="Self.SYS_C007014">
+          <AssociationSet Name="SYS_C007001" Association="Self.SYS_C007001">
             <End Role="SOCIOS" EntitySet="SOCIOS" />
             <End Role="CUOTAS" EntitySet="CUOTAS" />
           </AssociationSet>
@@ -62,7 +62,7 @@
           </Key>
           <Property Name="NUMEROCUOTA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
           <Property Name="FK_NUMEROSOCIO" Type="Decimal" Precision="38" Scale="0" />
-          <Property Name="MESPAGO" Type="Int32" />
+          <Property Name="MESPAGO" Type="DateTime" />
           <Property Name="FECHAPAGO" Type="DateTime" />
           <Property Name="MONTO" Type="Decimal" Precision="38" Scale="0" />
           <NavigationProperty Name="SOCIOS" Relationship="Self.SYS_C007014" FromRole="CUOTAS" ToRole="SOCIOS" />
