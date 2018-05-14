@@ -101,7 +101,7 @@ namespace Entidades
         {
             try
             {
-                List<Cl_Socios> so = new List<Entidades.Cl_Socios>();
+                List<Cl_Socios> so = new List<Cl_Socios>();
                 var socios = contexto.SOCIOS.ToList();
                 foreach (var item in socios)
                 {

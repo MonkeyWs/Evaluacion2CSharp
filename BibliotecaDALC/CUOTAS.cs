@@ -16,7 +16,7 @@ namespace BibliotecaDalc
     {
         public decimal NUMEROCUOTA { get; set; }
         public Nullable<decimal> FK_NUMEROSOCIO { get; set; }
-        public Nullable<int> MESPAGO { get; set; }
+        public Nullable<System.DateTime> MESPAGO { get; set; }
         public Nullable<System.DateTime> FECHAPAGO { get; set; }
         public Nullable<decimal> MONTO { get; set; }
         public string ACTIVO { get; set; }
