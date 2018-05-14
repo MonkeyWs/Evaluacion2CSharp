@@ -5,3 +5,11 @@ c:\users\matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\Biblio
 c:\users\matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\BibliotecaDalc\bin\Debug\EntityFramework.xml
 c:\users\matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\BibliotecaDalc\obj\Debug\BibliotecaDalc.dll
 c:\users\matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\BibliotecaDalc\obj\Debug\BibliotecaDalc.pdb
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\bin\Debug\BibliotecaDalc.dll.config
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\bin\Debug\BibliotecaDalc.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\bin\Debug\BibliotecaDalc.pdb
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\bin\Debug\EntityFramework.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\bin\Debug\EntityFramework.xml
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\obj\Debug\BibliotecaDalc.csprojResolveAssemblyReference.cache
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\obj\Debug\BibliotecaDalc.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\obj\Debug\BibliotecaDalc.pdb
