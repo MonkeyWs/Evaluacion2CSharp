@@ -13,3 +13,11 @@ C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\bin\Debug\EntityFram
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\obj\Debug\BibliotecaDalc.csprojResolveAssemblyReference.cache
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\obj\Debug\BibliotecaDalc.dll
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\BibliotecaDalc\obj\Debug\BibliotecaDalc.pdb
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\bin\Debug\BibliotecaDalc.dll.config
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\bin\Debug\BibliotecaDalc.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\bin\Debug\BibliotecaDalc.pdb
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\bin\Debug\EntityFramework.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\bin\Debug\EntityFramework.xml
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\obj\Debug\BibliotecaDalc.csprojResolveAssemblyReference.cache
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\obj\Debug\BibliotecaDalc.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\BibliotecaDalc\obj\Debug\BibliotecaDalc.pdb

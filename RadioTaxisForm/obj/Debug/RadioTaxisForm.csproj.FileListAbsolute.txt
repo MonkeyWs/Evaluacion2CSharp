@@ -9,3 +9,14 @@ C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\RadioTaxisForm\obj\Debug\RadioTaxis
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\RadioTaxisForm\obj\Debug\RadioTaxisForm.csproj.GenerateResource.Cache
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\RadioTaxisForm\obj\Debug\RadioTaxisForm.exe
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp\RadioTaxisForm\obj\Debug\RadioTaxisForm.pdb
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\bin\Debug\RadioTaxisForm.exe.config
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.exe
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.pdb
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\bin\Debug\RadioTaxisForm.exe
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\bin\Debug\RadioTaxisForm.pdb
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\bin\Debug\MetroFramework.Design.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\bin\Debug\MetroFramework.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.csprojResolveAssemblyReference.cache
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.Properties.Resources.resources
+C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.csproj.GenerateResource.Cache
