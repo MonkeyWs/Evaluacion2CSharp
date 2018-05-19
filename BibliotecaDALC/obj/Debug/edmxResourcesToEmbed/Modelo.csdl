@@ -48,5 +48,15 @@
       <End Role="SOCIOS" EntitySet="SOCIOS" />
       <End Role="CUOTAS" EntitySet="CUOTAS" />
     </AssociationSet>
+    <EntitySet Name="USUARIOS" EntityType="ModelRadioTaxi.USUARIOS" />
   </EntityContainer>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="IDUSUARIO" />
+    </Key>
+    <Property Name="IDUSUARIO" Type="Decimal" Nullable="false" Precision="38" Scale="0" />
+    <Property Name="RUT" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="PASS" Type="String" MaxLength="45" FixedLength="false" Unicode="false" />
+    <Property Name="TIPOUSUARIO" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
 </Schema>

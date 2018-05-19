@@ -8,6 +8,7 @@
         <EntityTypeShape EntityType="ModelRadioTaxi.CUOTAS" Width="1.5" PointX="3.375" PointY="1.625" IsExpanded="true" />
         <EntityTypeShape EntityType="ModelRadioTaxi.SOCIOS" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <AssociationConnector Association="ModelRadioTaxi.SYS_C007014" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ModelRadioTaxi.USUARIOS" Width="1.5" PointX="0.75" PointY="5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

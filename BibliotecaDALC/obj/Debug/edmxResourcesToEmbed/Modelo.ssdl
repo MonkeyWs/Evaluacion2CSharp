@@ -27,6 +27,15 @@
     <Property Name="FOTO" Type="varchar2" MaxLength="100" />
     <Property Name="ACTIVO" Type="varchar2" MaxLength="2" />
   </EntityType>
+  <EntityType Name="USUARIOS">
+    <Key>
+      <PropertyRef Name="IDUSUARIO" />
+    </Key>
+    <Property Name="IDUSUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+    <Property Name="RUT" Type="varchar2" MaxLength="15" />
+    <Property Name="PASS" Type="varchar2" MaxLength="45" />
+    <Property Name="TIPOUSUARIO" Type="number" Precision="38" Scale="0" />
+  </EntityType>
   <Association Name="SYS_C007001">
     <End Role="SOCIOS" Type="Self.SOCIOS" Multiplicity="0..1" />
     <End Role="CUOTAS" Type="Self.CUOTAS" Multiplicity="*" />
@@ -42,6 +51,7 @@
   <EntityContainer Name="ModelRadioTaxiStoreContainer">
     <EntitySet Name="CUOTAS" EntityType="Self.CUOTAS" Schema="USU_BD" store:Type="Tables" />
     <EntitySet Name="SOCIOS" EntityType="Self.SOCIOS" Schema="USU_BD" store:Type="Tables" />
+    <EntitySet Name="USUARIOS" EntityType="Self.USUARIOS" Schema="USU_BD" store:Type="Tables" />
     <AssociationSet Name="SYS_C007001" Association="Self.SYS_C007001">
       <End Role="SOCIOS" EntitySet="SOCIOS" />
       <End Role="CUOTAS" EntitySet="CUOTAS" />

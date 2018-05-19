@@ -20,3 +20,17 @@ C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\bin\Debug\MetroFram
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.csprojResolveAssemblyReference.cache
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.Properties.Resources.resources
 C:\Users\Duoc\Source\Repos\Evaluacion2CSharp2\RadioTaxisForm\obj\Debug\RadioTaxisForm.csproj.GenerateResource.Cache
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\bin\Debug\RadioTaxisForm.exe.config
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\bin\Debug\RadioTaxisForm.exe
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\bin\Debug\RadioTaxisForm.pdb
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\bin\Debug\MetroFramework.Design.dll
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\bin\Debug\MetroFramework.dll
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.FormLogin.resources
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.FormMenu.resources
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.Properties.Resources.resources
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.csproj.GenerateResource.Cache
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.exe
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.pdb
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.csprojResolveAssemblyReference.cache
+C:\Users\Matias\documents\visual studio 2015\Projects\SolucionEvaluacion2\RadioTaxisForm\obj\Debug\RadioTaxisForm.FormAgregarSocio.resources

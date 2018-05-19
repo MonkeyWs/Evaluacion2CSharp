@@ -27,5 +27,6 @@ namespace BibliotecaDalc
     
         public DbSet<CUOTAS> CUOTAS { get; set; }
         public DbSet<SOCIOS> SOCIOS { get; set; }
+        public DbSet<USUARIOS> USUARIOS { get; set; }
     }
 }
